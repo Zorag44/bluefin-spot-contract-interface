@@ -112,6 +112,10 @@ module bluefin_spot::position {
         abort 0
     }
 
+    public fun reward_infos_length(arg0: &Position) : u64 {
+        abort 0
+    }
+
     #[test_only]
     public fun open(
         pool_id: ID, 
